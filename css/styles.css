@@ -1,0 +1,196 @@
+body{
+  font-family:"Montserrat";
+}
+
+ #title{
+   background-color:#ff4c68;
+   color:#fff;
+ }
+
+  #title .container-fluid{
+    padding:3% 15%;
+ }
+ h1{
+
+   font-family:"Montserrat-Black";
+   font-size: 3.5rem;
+   line-height:1.5;
+   font-weight: bolder;
+
+ }
+
+
+
+/**********navigation bar***********/
+
+.navbar{
+  padding-bottom:80px;
+}
+.navbar-brand{
+  font-weight:bolder;
+  font-family:"Ubuntu";
+  font-size:30px;
+}
+
+.nav-item{
+  padding:0 18px;
+}
+
+.nav-link{
+  font-size:1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/**************buttons************/
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+/**************title i  mage***********/
+.title-img{
+  width:40%;
+  transform:rotate(25deg);
+  position:relative;
+  left:40%;
+
+}
+
+/***************features************/
+#features{
+  text-align: center;
+  padding:80px;
+  background-color:#fff;
+
+}
+
+.feature-title{
+  font-family:"Montserrat-bold";
+  font-size:1.5rem;
+  font-weight: bolder;
+}
+
+.para-color{
+  color:#8f8f8f;
+}
+
+.pad{
+  padding:30px;
+}
+
+.fa-solid{
+  color:#ef8172;
+  margin-bottom:1rem;
+}
+
+.fa-solid:hover{
+  color:#ff4c68;
+}
+
+/*************testimonials section***********/
+#testimonials{
+  text-align:center;
+  background-color:#ef8172;
+  color:#fff;
+}
+
+h2{
+
+  font-family: "Montserrat-Bold";
+  font-size:3rem;
+  line-height:1.5;
+  font-weight:bold;
+}
+
+.carousel-item{
+  padding:7% 15%;
+}
+
+.testi-img{
+  width:20%;
+  border-radius:100%;
+  margin:20px;
+}
+#press{
+  background-color:#ef8172;
+  text-align:center;
+  padding:25px;
+}
+
+.press-logo{
+  width:15%;
+  margin:20px 25px 50px;
+}
+
+/*****pricing*****/
+#pricing{
+  padding:100px;
+  text-align:center;
+}
+
+.price-col{
+  padding:3% 2%;
+}
+
+.price-title{
+  font-weight:bolder;
+}
+
+
+/*************z-index*********
+example:-
+
+h1{
+position:absolute;(or relative  or fixed or static)
+z-index:1;(it means that h1 will be on top)
+}
+
+z-index:-1;(it means h1 will be at bottom)
+
+hence, for z-index to work,it is necessary to have a position(relative or absolute or static or fixed.)Or else, z-index won't work.
+
+************/
+
+@media(max-width:1028px){
+  .title-img{
+      transform:rotate(0);
+    position:static;
+
+  }
+
+  #title{
+    text-align: center;
+  }
+}
+
+/*************call to action********/
+#cta{
+  background-color:#ff4c68;
+  text-align:center;
+  height:300px;
+  padding-top:50px;
+
+
+}
+
+.cta-line{
+  font-family:"Montserrat-Black";
+  font-weight:bolder;
+  font-size:50px;
+  color:#fff;
+
+}
+
+/************footer**********/
+#footer{
+  height:200px;
+  text-align: center;
+}
+
+.last{
+   margin-bottom:20px;
+}
+
+.ii{
+  padding:5% 3%  0;
+  margin-bottom:20px;
+}
